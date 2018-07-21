@@ -1,0 +1,34 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        body {
+            font: normal 11px Verdana, Arial, sans-serif;
+            letter-spacing: 0.10em
+        }
+    </style>
+</head>
+<body>
+    <h3>Application Exception</h3>
+<p>
+    <h5>Dear Team,</h5>
+    <br />An exception occurred in a Application @Model.AppName With following Details <br /> <br />
+</p>
+    
+<p>
+    <b>Log Date:</b> @Model.LogDate<br />
+    <b>Error Line No:</b> @Model.ErrorLineNumber<br />
+    <b>Error Message:</b> @Model.ErrorMessage<br />
+    <b>Exception Type:</b> @Model.ExceptionType<br />
+    <b>Exception Detail:</b> @Model.ErrorLocation<br />
+    <b>Stacktrace:</b> @Model.StackTrace<br />
+</p>
+<p>
+    Thanks and Regards <br />
+    <b>Application Admin</b>
+</p>
+
+</body>
+</html>
